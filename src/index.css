@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-infinite-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.animate-infinite-scroll:hover {
+  animation-play-state: paused;
+}
+/* Ensure this is in your index.css */
+@keyframes scroll-vertical-fast {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+.animate-vertical-story-fast {
+  display: flex;
+  flex-direction: column;
+  /* This ensures the content is long enough to animate */
+  min-height: 200%; 
+  animation: scroll-vertical-fast 25s linear infinite;
+}
+
+.animate-vertical-story-fast:hover {
+  animation-play-state: paused;
+}
