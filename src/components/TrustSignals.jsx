@@ -36,7 +36,7 @@ const TrustSignals = () => {
                 Pak<span className="italic">BNB</span>
               </span>
               <span className="serif-luxury text-xl md:text-2xl font-light text-white tracking-widest uppercase">
-                SMZ Biochar
+                EcoCarbon Solutions
               </span>
               <span className="serif-luxury text-xl md:text-2xl font-light text-white italic">
                 Focus Solutions.
