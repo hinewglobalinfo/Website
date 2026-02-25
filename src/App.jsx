@@ -11,7 +11,7 @@ import TrustSignals from './components/TrustSignals';
 import Hero from './sections/Hero';
 import ProblemSolution from './sections/ProblemSolution';
 import ServicesGrid from './sections/ServicesGrid';
-import TechStack from './sections/Teachstack';
+import TechStack from './sections/TeachStack';
 
 // Pages
 import ServicesPage from './pages/ServicesPage';
