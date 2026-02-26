@@ -24,7 +24,7 @@ const storyChapters = [
     content: "Successfully engineered a bespoke full-stack platform, proving that high-fidelity design and rapid performance can coexist beautifully."
   },
   {
-    title: "Project: SMZ Biochar",
+    title: "Project: EcoCarbon Solutions",
     content: "Delivered a performance-oriented digital presence for sustainable agriculture, focusing on measurable impact and scalable growth."
   },
   {
